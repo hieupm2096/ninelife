@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  AccountController.swift
 //  ninelife
 //
 //  Created by Hieu Pham on 6/8/20.
@@ -8,13 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class AccountController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
     }
-
-
 }
-

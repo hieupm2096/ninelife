@@ -3,27 +3,59 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59910119AAC3673AD90EB68E /* Pods_ninelife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB37C09CB4B44D252075387 /* Pods_ninelife.framework */; };
 		8E8663CF248E9597007D2465 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8663CE248E9597007D2465 /* AppDelegate.swift */; };
 		8E8663D1248E9597007D2465 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8663D0248E9597007D2465 /* SceneDelegate.swift */; };
-		8E8663D3248E9597007D2465 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8663D2248E9597007D2465 /* ViewController.swift */; };
-		8E8663D6248E9597007D2465 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8663D4248E9597007D2465 /* Main.storyboard */; };
 		8E8663D8248E9598007D2465 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E8663D7248E9598007D2465 /* Assets.xcassets */; };
 		8E8663DB248E9598007D2465 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8663D9248E9598007D2465 /* LaunchScreen.storyboard */; };
+		8E8663E4248E95F1007D2465 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8663E2248E95F1007D2465 /* HomeController.swift */; };
+		8E8663E5248E95F1007D2465 /* HomeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E8663E3248E95F1007D2465 /* HomeController.xib */; };
+		8EE000C4248EA17700825DCB /* ExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE000C2248EA17700825DCB /* ExploreController.swift */; };
+		8EE000C5248EA17700825DCB /* ExploreController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EE000C3248EA17700825DCB /* ExploreController.xib */; };
+		8EE000CE248EA20400825DCB /* EventsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE000CC248EA20400825DCB /* EventsController.swift */; };
+		8EE000CF248EA20400825DCB /* EventsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EE000CD248EA20400825DCB /* EventsController.xib */; };
+		8EE000D2248EA21F00825DCB /* LocationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE000D0248EA21F00825DCB /* LocationsController.swift */; };
+		8EE000D3248EA21F00825DCB /* LocationsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EE000D1248EA21F00825DCB /* LocationsController.xib */; };
+		8EE000D6248EA22E00825DCB /* InboxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE000D4248EA22E00825DCB /* InboxController.swift */; };
+		8EE000D7248EA22E00825DCB /* InboxController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EE000D5248EA22E00825DCB /* InboxController.xib */; };
+		8EE000DA248EA23C00825DCB /* AccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE000D8248EA23C00825DCB /* AccountController.swift */; };
+		8EE000DB248EA23C00825DCB /* AccountController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EE000D9248EA23C00825DCB /* AccountController.xib */; };
+		8EE000DE248FEEB700825DCB /* Colors.json in Resources */ = {isa = PBXBuildFile; fileRef = 8EE000DD248FEEB700825DCB /* Colors.json */; };
+		8EE000E0248FEF4C00825DCB /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 8EE000DF248FEF4C00825DCB /* swiftgen.yml */; };
+		8EE000E3248FF02300825DCB /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE000E1248FF02300825DCB /* Assets.swift */; };
+		8EE000E4248FF02300825DCB /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE000E2248FF02300825DCB /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12F000C2065F47514ABD1307 /* Pods-ninelife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ninelife.release.xcconfig"; path = "Target Support Files/Pods-ninelife/Pods-ninelife.release.xcconfig"; sourceTree = "<group>"; };
+		8AB37C09CB4B44D252075387 /* Pods_ninelife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ninelife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E8663CB248E9597007D2465 /* ninelife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ninelife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E8663CE248E9597007D2465 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E8663D0248E9597007D2465 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8E8663D2248E9597007D2465 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8E8663D5248E9597007D2465 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E8663D7248E9598007D2465 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E8663DA248E9598007D2465 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E8663DC248E9598007D2465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E8663E2248E95F1007D2465 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		8E8663E3248E95F1007D2465 /* HomeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeController.xib; sourceTree = "<group>"; };
+		8EE000C2248EA17700825DCB /* ExploreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreController.swift; sourceTree = "<group>"; };
+		8EE000C3248EA17700825DCB /* ExploreController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExploreController.xib; sourceTree = "<group>"; };
+		8EE000CC248EA20400825DCB /* EventsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsController.swift; sourceTree = "<group>"; };
+		8EE000CD248EA20400825DCB /* EventsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventsController.xib; sourceTree = "<group>"; };
+		8EE000D0248EA21F00825DCB /* LocationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsController.swift; sourceTree = "<group>"; };
+		8EE000D1248EA21F00825DCB /* LocationsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocationsController.xib; sourceTree = "<group>"; };
+		8EE000D4248EA22E00825DCB /* InboxController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxController.swift; sourceTree = "<group>"; };
+		8EE000D5248EA22E00825DCB /* InboxController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InboxController.xib; sourceTree = "<group>"; };
+		8EE000D8248EA23C00825DCB /* AccountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountController.swift; sourceTree = "<group>"; };
+		8EE000D9248EA23C00825DCB /* AccountController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountController.xib; sourceTree = "<group>"; };
+		8EE000DD248FEEB700825DCB /* Colors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Colors.json; sourceTree = "<group>"; };
+		8EE000DF248FEF4C00825DCB /* swiftgen.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		8EE000E1248FF02300825DCB /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		8EE000E2248FF02300825DCB /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		DBEC5422AFE033044981BDA4 /* Pods-ninelife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ninelife.debug.xcconfig"; path = "Target Support Files/Pods-ninelife/Pods-ninelife.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +63,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59910119AAC3673AD90EB68E /* Pods_ninelife.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B768FDBB98811D61DDFE89C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AB37C09CB4B44D252075387 /* Pods_ninelife.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8E8663C2248E9597007D2465 = {
 			isa = PBXGroup;
 			children = (
 				8E8663CD248E9597007D2465 /* ninelife */,
 				8E8663CC248E9597007D2465 /* Products */,
+				BE6C3C996D189FA33A35883A /* Pods */,
+				4B768FDBB98811D61DDFE89C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +99,134 @@
 		8E8663CD248E9597007D2465 /* ninelife */ = {
 			isa = PBXGroup;
 			children = (
+				8EE000BF248E9F7200825DCB /* Shared */,
+				8EE000BE248E9F6400825DCB /* Extensions */,
+				8EE000BD248E9F5C00825DCB /* Models */,
+				8EE000BC248E9F4A00825DCB /* Services */,
+				8EE000BB248E9F2C00825DCB /* Screens */,
+				8EE000DC248FED5400825DCB /* Resources */,
 				8E8663CE248E9597007D2465 /* AppDelegate.swift */,
 				8E8663D0248E9597007D2465 /* SceneDelegate.swift */,
-				8E8663D2248E9597007D2465 /* ViewController.swift */,
-				8E8663D4248E9597007D2465 /* Main.storyboard */,
-				8E8663D7248E9598007D2465 /* Assets.xcassets */,
 				8E8663D9248E9598007D2465 /* LaunchScreen.storyboard */,
 				8E8663DC248E9598007D2465 /* Info.plist */,
 			);
 			path = ninelife;
+			sourceTree = "<group>";
+		};
+		8EE000BB248E9F2C00825DCB /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8EE000C0248EA12A00825DCB /* Home */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8EE000BC248E9F4A00825DCB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8EE000BD248E9F5C00825DCB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8EE000BE248E9F6400825DCB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8EE000BF248E9F7200825DCB /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		8EE000C0248EA12A00825DCB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8E8663E2248E95F1007D2465 /* HomeController.swift */,
+				8E8663E3248E95F1007D2465 /* HomeController.xib */,
+				8EE000C1248EA14900825DCB /* Explore */,
+				8EE000C6248EA18E00825DCB /* Events */,
+				8EE000C7248EA1A300825DCB /* Locations */,
+				8EE000C8248EA1A900825DCB /* Inbox */,
+				8EE000C9248EA1B300825DCB /* Account */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8EE000C1248EA14900825DCB /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				8EE000C2248EA17700825DCB /* ExploreController.swift */,
+				8EE000C3248EA17700825DCB /* ExploreController.xib */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		8EE000C6248EA18E00825DCB /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				8EE000CC248EA20400825DCB /* EventsController.swift */,
+				8EE000CD248EA20400825DCB /* EventsController.xib */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		8EE000C7248EA1A300825DCB /* Locations */ = {
+			isa = PBXGroup;
+			children = (
+				8EE000D0248EA21F00825DCB /* LocationsController.swift */,
+				8EE000D1248EA21F00825DCB /* LocationsController.xib */,
+			);
+			path = Locations;
+			sourceTree = "<group>";
+		};
+		8EE000C8248EA1A900825DCB /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+				8EE000D4248EA22E00825DCB /* InboxController.swift */,
+				8EE000D5248EA22E00825DCB /* InboxController.xib */,
+			);
+			path = Inbox;
+			sourceTree = "<group>";
+		};
+		8EE000C9248EA1B300825DCB /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				8EE000D8248EA23C00825DCB /* AccountController.swift */,
+				8EE000D9248EA23C00825DCB /* AccountController.xib */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		8EE000DC248FED5400825DCB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8EE000E1248FF02300825DCB /* Assets.swift */,
+				8EE000E2248FF02300825DCB /* Colors.swift */,
+				8E8663D7248E9598007D2465 /* Assets.xcassets */,
+				8EE000DD248FEEB700825DCB /* Colors.json */,
+				8EE000DF248FEF4C00825DCB /* swiftgen.yml */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BE6C3C996D189FA33A35883A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBEC5422AFE033044981BDA4 /* Pods-ninelife.debug.xcconfig */,
+				12F000C2065F47514ABD1307 /* Pods-ninelife.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E8663DF248E9598007D2465 /* Build configuration list for PBXNativeTarget "ninelife" */;
 			buildPhases = (
+				1D799C210B2C06FF558DBF77 /* [CP] Check Pods Manifest.lock */,
 				8E8663C7248E9597007D2465 /* Sources */,
 				8E8663C8248E9597007D2465 /* Frameworks */,
 				8E8663C9248E9597007D2465 /* Resources */,
+				7E4340790D9D04CE693D7F02 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,36 +289,84 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EE000D3248EA21F00825DCB /* LocationsController.xib in Resources */,
+				8EE000E0248FEF4C00825DCB /* swiftgen.yml in Resources */,
 				8E8663DB248E9598007D2465 /* LaunchScreen.storyboard in Resources */,
+				8EE000DE248FEEB700825DCB /* Colors.json in Resources */,
+				8EE000D7248EA22E00825DCB /* InboxController.xib in Resources */,
+				8EE000C5248EA17700825DCB /* ExploreController.xib in Resources */,
+				8E8663E5248E95F1007D2465 /* HomeController.xib in Resources */,
 				8E8663D8248E9598007D2465 /* Assets.xcassets in Resources */,
-				8E8663D6248E9597007D2465 /* Main.storyboard in Resources */,
+				8EE000CF248EA20400825DCB /* EventsController.xib in Resources */,
+				8EE000DB248EA23C00825DCB /* AccountController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D799C210B2C06FF558DBF77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ninelife-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E4340790D9D04CE693D7F02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ninelife/Pods-ninelife-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ninelife/Pods-ninelife-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ninelife/Pods-ninelife-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8E8663C7248E9597007D2465 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E8663D3248E9597007D2465 /* ViewController.swift in Sources */,
+				8E8663E4248E95F1007D2465 /* HomeController.swift in Sources */,
+				8EE000E4248FF02300825DCB /* Colors.swift in Sources */,
+				8EE000D6248EA22E00825DCB /* InboxController.swift in Sources */,
+				8EE000C4248EA17700825DCB /* ExploreController.swift in Sources */,
+				8EE000DA248EA23C00825DCB /* AccountController.swift in Sources */,
+				8EE000D2248EA21F00825DCB /* LocationsController.swift in Sources */,
 				8E8663CF248E9597007D2465 /* AppDelegate.swift in Sources */,
 				8E8663D1248E9597007D2465 /* SceneDelegate.swift in Sources */,
+				8EE000CE248EA20400825DCB /* EventsController.swift in Sources */,
+				8EE000E3248FF02300825DCB /* Assets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8E8663D4248E9597007D2465 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8E8663D5248E9597007D2465 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8E8663D9248E9598007D2465 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +494,7 @@
 		};
 		8E8663E0248E9598007D2465 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBEC5422AFE033044981BDA4 /* Pods-ninelife.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +513,7 @@
 		};
 		8E8663E1248E9598007D2465 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12F000C2065F47514ABD1307 /* Pods-ninelife.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

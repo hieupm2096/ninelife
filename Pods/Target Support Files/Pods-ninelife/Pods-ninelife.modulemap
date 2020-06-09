@@ -1,0 +1,6 @@
+framework module Pods_ninelife {
+  umbrella header "Pods-ninelife-umbrella.h"
+
+  export *
+  module * { export * }
+}

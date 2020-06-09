@@ -1,0 +1,11 @@
+
+xcassets:
+  inputs: Assets.xcassets
+  outputs:
+    templateName: swift4
+    output: Assets.swift
+colors:
+  inputs: Colors.json
+  outputs:
+    templateName: swift4
+    output: Colors.swift
